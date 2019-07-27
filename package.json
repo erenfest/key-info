@@ -1,0 +1,16 @@
+{
+  "name": "key-info",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "compile": "tsc --downlevelIteration --declaration --declarationDir types --outDir dist --target es6 --module esnext --moduleResolution node --skipLibCheck src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "12.6.8"
+  }
+}
